@@ -1,43 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import "./Body.css"
+import Cards from '../Cards/Cards';
+import SideBar from '../SideBar/SideBar';
 
 const Body = () => {
 
 
-
     // const [products, setProducts] = useState([]);
-    // const [cart, setcart] = useState([]);
 
-    const[actor,setActor]=useState([]);
-
+    const [actors, setactors] = useState([]);
 
     useEffect(() => {
 
-        fetch("./products.JSON")
+        fetch("./data.JSON")
         .then(res=>res.json())
-        .then(data=>console.log(data));
+        .then(data=>setactors(data))
        
-      
     }, [])
 
-
-    // fetch("./products.JSON")
-    // .then(res=>res.json())
-    // .then(data=>{
-    //     setProducts(data);
-    //     setdisplayProducts(data);
-
-
-
-
-
-
-
-
-
-
-
-
+    console.log(actors)
 
 
 
@@ -57,6 +37,70 @@ const Body = () => {
 
 
 
+        <div className="row">
+
+                <div className="col-2">
+                        <SideBar></SideBar>
+
+
+                </div>
+
+
+
+
+            <div className="col-10">
+                <div className="row">
+                    {
+                    actors.map(actor=><Cards 
+
+                        key={actor.id}
+                        passAll={actor}
+
+
+                    
+                    
+                    
+                    
+                    ></Cards>)
+
+
+
+
+
+                }
+                    
+                </div>
+
+            </div>
+
+
+            {/* <Cards></Cards> */}
+
+
+
+         
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        
+
+
+
+
+
+        
 
 
 
@@ -83,7 +127,8 @@ const Body = () => {
 
 
 
-            
+
+           
         </>
     );
 };

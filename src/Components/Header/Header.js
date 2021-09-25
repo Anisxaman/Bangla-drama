@@ -7,9 +7,9 @@ const Header = () => {
         <>
 
             <nav className="navbar navbar-expand-lg navbar-dark primary">
-  <div class="container-fluid">
+  <div className="container-fluid">
     <a className="navbar-brand" href="/shop">Menu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -17,11 +17,11 @@ const Header = () => {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/shop">Home</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a className="nav-link" href="/shop">Link</a>
         </li>
      
-        <li classNames="nav-item">
+        <li className="nav-item">
           <a className="nav-link disabled" href="/shop">Disabled</a>
         </li>
       </ul>
