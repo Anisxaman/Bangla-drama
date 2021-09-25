@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cards from '../Cards/Cards';
 import SideBar from '../SideBar/SideBar';
+import "./Body.css"
 
 const Body = () => {
 
@@ -8,6 +9,8 @@ const Body = () => {
     // const [products, setProducts] = useState([]);
 
     const [actors, setactors] = useState([]);
+
+    const [budget, setBudget] = useState([])
 
     useEffect(() => {
 
@@ -19,10 +22,15 @@ const Body = () => {
 
     console.log(actors)
 
+const addCart=(get)=>{
+    console.log(get);
+
+    setBudget(get);
+
+            }
 
 
-
-
+      
 
 
 
@@ -39,8 +47,15 @@ const Body = () => {
 
         <div className="row">
 
-                <div className="col-2">
-                        <SideBar></SideBar>
+                <div className="col-2 backImg">
+                    <div>
+                    <SideBar
+                    passAll={budget}
+                    
+                    
+                    ></SideBar>
+
+                    </div>
 
 
                 </div>
@@ -48,13 +63,14 @@ const Body = () => {
 
 
 
-            <div className="col-10">
-                <div className="row">
+            <div className="col-10 main">
+                <div className="row container ">
                     {
                     actors.map(actor=><Cards 
 
                         key={actor.id}
                         passAll={actor}
+                        addCart={addCart}
 
 
                     
