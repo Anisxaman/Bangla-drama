@@ -20,10 +20,10 @@ const Body = () => {
        
     }, [])
 
-    console.log(actors)
+    // console.log(actors)
 
 const addCart=(get)=>{
-    console.log(get);
+    // console.log(get);
 
     setBudget(get);
 
@@ -51,6 +51,7 @@ const addCart=(get)=>{
                     <div>
                     <SideBar
                     passAll={budget}
+                    // totalBudget={actors}
                     
                     
                     ></SideBar>
@@ -88,20 +89,6 @@ const addCart=(get)=>{
                 </div>
 
             </div>
-
-
-            {/* <Cards></Cards> */}
-
-
-
-         
-
-
-
-
-
-
-
 
 
         </div>

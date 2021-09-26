@@ -3,122 +3,128 @@
       "id": 1,
       "name": "Pori Moni",
       "budget": 20000,
+      "CurrentMovie":"Mon sudu Mon",
       "HitMovie": [
         "sopno amar,",
         "akas tumi"
       ],
       "img": "https://cdn.risingbd.com/media/imgAll/2021July/en/porimoni-2108311315-2108311402.jpg",
-      "Award": "akosya podok"
+      "Award": "akosya podok",
+      "Description": "pori Moni (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 2,
       "name": "Hero Alam",
       "budget": 10000,
+      "CurrentMovie":"Mon sudu Mon",
       "HitMovie": [
         "Sokina Tumi Kar,",
         "Hero ami,",
         "mon valo nei"
       ],
       "img": "https://media-eng.dhakatribune.com/uploads/2018/12/untitled-2-1543743572963.jpg",
-      "Award": "akosya podok"
+      "Award": "akosya podok",
+      "Description": "Hero Alam (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 3,
       "name": "Siam Ahmed",
       "budget": 15000,
+      "CurrentMovie":"Bidi tumi kar",
       "HitMovie": [
         "Bagan Bilas,",
         "tumi nei"
       ],
       "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "Award": "FilmFare",
+      "Description": "siam Ahmed (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 4,
-      "name": "Pori Moni",
-      "budget": 20000,
+      "name": "Tanjim Tisha",
+      "budget": 30000,
+      "CurrentMovie":"Mon sudu Mon",
       "HitMovie": [
         "sopno amar,",
         "akas tumi"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "https://media.dhakatribune.com/uploads/2017/07/tanjin-tisha-bangladeshi-model-actress-hd-photo-wallpapers-23-300x248.jpg",
+      "Award": "akosya podok",
+      "Description": "Tanjim Tisha (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 5,
-      "name": "Pori Moni",
-      "budget": 20000,
+      "name": "Sabnur ",
+      "budget": 30000,
+      "CurrentMovie":"jibon jemon",
       "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
+        "amar ki,",
+        "noditumi"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "http://magazine.bongobd.com/wp-content/uploads/2018/10/shabnur-1-800x445.jpg",
+      "Award": "akosya podok",
+      "Description": "Sabnur (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 6,
-      "name": "Pori Moni",
+      "name": "Afran Nisho",
       "budget": 20000,
+      "CurrentMovie":"Mon kar sudu Mon",
       "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
+        "sopno te amar,",
+        "akas vora tumi"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "https://i.pinimg.com/564x/53/5b/c4/535bc49bad4e4ad5c247e9d96b59920b.jpg",
+      "Award": "akosya podok",
+      "Description": "Kazi Afran Nisho, known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 7,
-      "name": "Pori Moni",
-      "budget": 20000,
+      "name": "Arefin Shuvo",
+      "budget": 30000,
+      "CurrentMovie":"kar Mon sudu kar",
       "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
+        "sei sopno amar,",
+        "akas tumi valo"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "https://muchfeed.com/wp-content/uploads/2018/03/Arifin-Shuvo-300x300.gif",
+      "Award": "akosya podok",
+      "Description": "Arefin Shuvo(born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 8,
-      "name": "Pori Moni",
-      "budget": 20000,
+      "name": "Safa Kabir",
+      "budget": 25000,
+      "CurrentMovie":" tumi Mon sudu Mon",
       "HitMovie": [
-        "sopno amar,",
+        "sopno last amar,",
         "akas tumi"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "https://smallbiography.com/wp-content/uploads/2020/12/Safa-Kabir-15.jpg",
+      "Award": "akosya podok",
+      "Description": "Safa Kabir (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     },
     {
       "id": 9,
-      "name": "Pori Moni",
+      "name": "mehazabien chowdhury",
       "budget": 20000,
+      "CurrentMovie":" nai Mon sudu Mon",
       "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
+        " hai sopno amar,",
+        "tumi akas tumi"
       ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
-    },
-    {
-      "id": 10,
-      "name": "Pori Moni",
-      "budget": 20000,
-      "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
-      ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
-    },
-    {
-      "id": 11,
-      "name": "Pori Moni",
-      "budget": 20000,
-      "HitMovie": [
-        "sopno amar,",
-        "akas tumi"
-      ],
-      "img": "https://www.newagebd.com/files/records/news/202102/129050_133.jpg",
-      "Award": "akosya podok"
+      "img": "https://smallbiography.com/wp-content/uploads/2020/12/Mehjabin-Chowdhury-16.jpg",
+      "Award": "akosya podok",
+      "Description": "mehazabien chowdhury (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
     }
+ 
   ]
