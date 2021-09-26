@@ -17,7 +17,7 @@ const Cards = (props) => {
     return (
         <>
 
-  <div className='col-3 '>
+  <div className='col-lg-3  col-sm-6 col-12'>
   <div className="card mb-3 shadow rounded-3 Hover ">
         <img src={props.passAll.img} className="card-img-top setImg  " alt="" />
         <div className="card-body ">
