@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+
 .PriceBoard{
     /* margin-top: 0px; */
     border-radius: 20px;
@@ -11,8 +14,14 @@
     transform: scale(1.1) ;
     transition: transform 0.5s;
 
+  
+
+}
 
 
+.Tit{
+    font-family: 'Birthstone', cursive;
+    font-size: 40px;
 }
 
 .position{

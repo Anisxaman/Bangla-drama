@@ -7,7 +7,6 @@ import "./Body.css"
 const Body = () => {
 
 
-    // const [products, setProducts] = useState([]);
 
     const [actors, setactors] = useState([]);
      const [budget, setBudget] = useState([])
@@ -15,7 +14,6 @@ const Body = () => {
      const [value, setValue] = useState([])
 
 
-    //  console.log(budget.length);
 
     useEffect(() => {
 
@@ -25,36 +23,23 @@ const Body = () => {
        
     }, [])
 
-
-
-//   const handleAddProduct=(product)=>{
-//       const newCart=[...budget,product]
-//       console.log(newCart);
-//   }
-
-    // console.log(actors)
+// --------------------------pass info into cart function-----------------------
 
 const addCart=(get)=>{
     // console.log(get);
     const newCart=[...budget,get]
-    // console.log(newCart);
+   
 
     setBudget(newCart);
     setinfo(get);
 
             }
+            // -----------------------display total function--------------
 const display=(value)=>{
     setValue(value);
     
 }
       
-
-
-
-
-
-
-
 
 
     return (

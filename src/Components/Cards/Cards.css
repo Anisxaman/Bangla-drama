@@ -9,6 +9,14 @@
 .text{
     color: rgb(226, 80, 27);
 }
+.Hover{
+    height: 800px;
+}
+
+.card-end{
+    height: 472px;
+
+}
 
 
 .Hover:hover{
