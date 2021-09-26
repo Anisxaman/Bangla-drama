@@ -30,7 +30,7 @@ const Cards = (props) => {
         <>
 
   <div className='col-3 '>
-  <div className="card mb-3 shadow rounded-3 Hover">
+  <div className="card mb-3 shadow rounded-3 Hover ">
         {/* <img src={props.actor.img} className="card-img-top" alt="..."> */}
         <img src={props.passAll.img} className="card-img-top setImg  " alt="" />
         <div className="card-body ">

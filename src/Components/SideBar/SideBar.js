@@ -2,10 +2,46 @@
 import "./SideBar.css"
 
 const SideBar = (props) => {
-    const{budget,name }=props.passAll;
+    const{budget,name ,id}=props.passAll;
 
+    // const exit={props.passAll}
+    // exit[props.passAll];
+    console.log(id);
+    console.log(props)
+const{totalBudget}=props;
+console.log(totalBudget);
+
+// const stored=[];
+
+
+// const displayTotal=()=>{
+
+
+//     for(const key of totalBudget ){
+//         console.log(key["id"]);
+//         const addedProduct=products.find(product=>product.key===key);
+//     }
+
+// }
+
+// const storedCart=[];
+
+// console.log(saveCart);
+// for(const key in saveCart){
+//     console.log(key,saveCart[key]); //key aikhane property.
+//     console.log(saveCart[key]); //key aikhane property.
+
+//     console.log(key);
+//   //   console.log(products);
+//   const addedProduct=products.find(product=>product.key===key); //---key related value kuje nea
+//   if(addedProduct){
+//       const quantity=saveCart[key];
+//       console.log(addedProduct);
+//       addedProduct.quantity=quantity;//quality namer property add kora hoiase.
+//     storedCart.push(addedProduct);
 
     
+//   }
 
 
 
@@ -25,7 +61,7 @@ const SideBar = (props) => {
 
             
        
-            <div className="card py-5 PriceBoard">
+            <div className="card py-5 PriceBoard Hover position">
                     {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body">
                         <h2 className="card-title text-danger fw-bold">Info Board</h2>
@@ -33,7 +69,7 @@ const SideBar = (props) => {
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
 
                         <p className='fs-4'> <span  className="fw-bold ">Budget:</span> {budget} </p>
-                        <p className='fs-4'> <span  className="fw-bold ">Total Budget:{<br/>}</span>  </p>
+                        <p className='fs-4'> <span  className="fw-bold ">Total Budget:{<br/>}</span> {} </p>
                         <a href="/s" className="btn btn-primary px-5">Details</a>
                     </div>
                     </div>

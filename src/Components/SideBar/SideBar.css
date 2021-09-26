@@ -1,6 +1,20 @@
 .PriceBoard{
-    margin-top: 400px;
+    /* margin-top: 0px; */
     border-radius: 20px;
     text-align: center;
     background-color: lightgrey;
+}
+
+.Hover:hover{
+    
+    box-shadow: 28px 18px 63px -23px rgba(0,0,0,0.75);
+    transform: scale(1.1) ;
+    transition: transform 0.5s;
+
+
+
+}
+
+.position{
+    position: fixed;
 }

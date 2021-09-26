@@ -10,11 +10,10 @@ const Body = () => {
     // const [products, setProducts] = useState([]);
 
     const [actors, setactors] = useState([]);
-    const [DisplayTotal, setDisplayTotal] = useState([]);
+     const [budget, setBudget] = useState([])
 
 
-    const [budget, setBudget] = useState([])
-
+    //  console.log(budget.length);
 
     useEffect(() => {
 
@@ -23,6 +22,15 @@ const Body = () => {
         .then(data=>setactors(data))
        
     }, [])
+
+
+
+    useEffect(() => {
+console.log(budget);
+
+
+       
+    }, [budget])
 
     // console.log(actors)
 
@@ -57,7 +65,7 @@ const addCart=(get)=>{
                     <div>
                     <SideBar
                     passAll={budget}
-                    // totalBudget={actors}
+                    totalBudget={actors}
                     
                     
                     ></SideBar>
