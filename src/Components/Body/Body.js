@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cards from '../Cards/Cards';
+import Header from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
 import "./Body.css"
 
@@ -9,8 +10,11 @@ const Body = () => {
     // const [products, setProducts] = useState([]);
 
     const [actors, setactors] = useState([]);
+    const [DisplayTotal, setDisplayTotal] = useState([]);
+
 
     const [budget, setBudget] = useState([])
+
 
     useEffect(() => {
 
@@ -42,6 +46,8 @@ const addCart=(get)=>{
 
     return (
         <>
+            <Header display></Header>
+
 
 
 
