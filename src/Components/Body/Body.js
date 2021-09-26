@@ -80,8 +80,7 @@ const addCart=(get)=>{
 
             <div className="col-10 main">
                 <div className="row container ">
-                    {
-                    actors.map(actor=><Cards 
+                  {actors.map(actor=><Cards 
 
                         key={actor.id}
                         passAll={actor}
@@ -97,9 +96,8 @@ const addCart=(get)=>{
 
 
 
-
                 }
-                    
+            
                 </div>
 
             </div>

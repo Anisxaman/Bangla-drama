@@ -114,6 +114,34 @@
     },
     {
       "id": 9,
+      "name": "Sabnam Faria",
+      "budget": 25000,
+      "CurrentMovie":" tumi sudu ",
+      "HitMovie": [
+        "sopno last amar hobe,",
+        "ite akas tumi"
+      ],
+      "img": "https://networthidea.com/wp-content/uploads/2020/09/FARIA-e1600622551959.jpg",
+      "Award": "akosya podok",
+      "Description": "Safa Kabir (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
+    },
+    {
+      "id": 10,
+      "name": "Tisha",
+      "budget": 15000,
+      "CurrentMovie":" amar Mon sudu Mon",
+      "HitMovie": [
+        "sopno last amar,",
+        "akas tumi"
+      ],
+      "img": "https://i1.wp.com/short-biography.com/wp-content/uploads/nusrat-imroz-tisha/Nusrat-Imrose-Tisha-1.jpg?w=1581&ssl=1",
+      "Award": "akosya podok",
+      "Description": "Safa Kabir (born 17 December 1977), known by her stage name Shabnur, is a Bangladeshi film actress. She won Bangladesh National Film Award for"
+
+    },
+    {
+      "id": 11,
       "name": "mehazabien chowdhury",
       "budget": 20000,
       "CurrentMovie":" nai Mon sudu Mon",
