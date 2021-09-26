@@ -2,14 +2,40 @@
 import "./SideBar.css"
 
 const SideBar = (props) => {
-    const{budget,name ,id}=props.passAll;
+    const{budget,name }=props.info;
 
-    // const exit={props.passAll}
-    // exit[props.passAll];
-    console.log(id);
+    const {passAll}=props;
+    
     console.log(props)
-const{totalBudget}=props;
-console.log(totalBudget);
+let Total=0;
+
+for(const total of passAll){
+    Total=Total+total.budget;
+    // console.log(total.budget);
+
+}
+
+
+props.display(Total);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const{totalBudget}=props;
+
+
+
+
+// console.log(totalBudget);
 
 // const stored=[];
 
@@ -64,20 +90,30 @@ console.log(totalBudget);
             <div className="card py-5 PriceBoard Hover position">
                     {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body">
+                        
+
+
                         <h2 className="card-title text-danger fw-bold">Info Board</h2>
+                        {/* <h5 ><span className="fs-4 text-primary fw-bold">Actor Added:</span>{<br/>} {} </h5> */}
                         <h5 ><span className="fs-4 text-primary fw-bold">Actor Added:</span>{<br/>} {name} </h5>
+
+
+
+                        {/* {
+                            passAll.map>{name=>
+
+                            }
+                        } */}
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
 
                         <p className='fs-4'> <span  className="fw-bold ">Budget:</span> {budget} </p>
-                        <p className='fs-4'> <span  className="fw-bold ">Total Budget:{<br/>}</span> {} </p>
+                        <p className='fs-4'> <span  className="fw-bold ">Total Budget:{<br/>}</span> {Total} </p>
                         <a href="/s" className="btn btn-primary px-5">Details</a>
                     </div>
                     </div>
 
             
-            {/* <div className="col-10">
-
-            </div> */}
+           
 
        
             

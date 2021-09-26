@@ -11,6 +11,8 @@ const Body = () => {
 
     const [actors, setactors] = useState([]);
      const [budget, setBudget] = useState([])
+     const [info, setinfo] = useState([])
+     const [value, setValue] = useState([])
 
 
     //  console.log(budget.length);
@@ -25,23 +27,26 @@ const Body = () => {
 
 
 
-    useEffect(() => {
-console.log(budget);
-
-
-       
-    }, [budget])
+//   const handleAddProduct=(product)=>{
+//       const newCart=[...budget,product]
+//       console.log(newCart);
+//   }
 
     // console.log(actors)
 
 const addCart=(get)=>{
     // console.log(get);
+    const newCart=[...budget,get]
+    // console.log(newCart);
 
-    setBudget(get);
+    setBudget(newCart);
+    setinfo(get);
 
             }
-
-
+const display=(value)=>{
+    setValue(value);
+    
+}
       
 
 
@@ -54,7 +59,7 @@ const addCart=(get)=>{
 
     return (
         <>
-            <Header display="0"></Header>
+            <Header display={value}></Header>
 
 
 
@@ -66,6 +71,8 @@ const addCart=(get)=>{
                     <SideBar
                     passAll={budget}
                     totalBudget={actors}
+                    info={info}
+                    display={display}
                     
                     
                     ></SideBar>
