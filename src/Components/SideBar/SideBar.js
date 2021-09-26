@@ -35,6 +35,11 @@ props.display(Total);
                         <h2 className="card-title text-danger fw-bold">Info Board</h2>
                         
                         <h5 className="Tit"><span className="fs-4 text-primary fw-bold ">Actor Added:</span>{<br/>} {name} </h5>
+                        <ul>
+                            {
+                                passAll.map(each=><li>Total:{each.name}</li>)
+                            }
+                        </ul>
 
                         <p className='fs-4'> <span  className="fw-bold ">Budget:</span> {budget} </p>
                         <p className='fs-4'> <span  className="fw-bold ">Total Budget:{<br/>}</span> {Total} </p>
