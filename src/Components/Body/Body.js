@@ -46,7 +46,7 @@ const addCart=(get)=>{
 
     return (
         <>
-            <Header display></Header>
+            <Header display="0"></Header>
 
 
 

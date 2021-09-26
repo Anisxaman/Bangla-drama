@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import "./Header.css"
 
 const Header = (props) => {
@@ -65,7 +65,7 @@ const Header = (props) => {
     <p className="p-2 text-center"><small>Movies are for entertainment, especially the archetypical films and their typical song and dance fanfare.  </small></p>
 </div>
 <div>
-    <h1 className='text-center fs-3'>Total Budget: <span className="text-info">{props.display}</span> Million</h1>
+    <h1 className='text-center fs-3'>Total Budget: <span className="text-info">{props.display}</span>Thaka</h1>
 </div>
 <hr />
 
