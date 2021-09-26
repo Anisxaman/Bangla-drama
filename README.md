@@ -2,7 +2,13 @@
 
 
 
+. Simple React website
 
+. Shown Famous celebraty of Bangladesh
+
+. Shown their upcomin Movies.
+
+. using React,css,bootstrap,html
 
 
 
@@ -11,7 +17,7 @@
 
 
 
-[Anishuzzaman][author]
+[author][Anishuzzaman]
 
 [author][https://www.facebook.com/anishuzzaman]
 
