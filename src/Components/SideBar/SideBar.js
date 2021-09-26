@@ -37,7 +37,7 @@ props.display(Total);
                         <h5 className="Tit"><span className="fs-4 text-primary fw-bold ">Actor Added:</span>{<br/>} {name} </h5>
                         <ul>
                             {
-                                passAll.map(each=><li>Total:{each.name}</li>)
+                                passAll.map(each=><li>{each.name}</li>)
                             }
                         </ul>
 
